@@ -235,7 +235,7 @@ cpnBtn.onclick = function(){
   navigator.clipboard.writeText(cpnCode.innerHTML);
   cpnBtn.innerHTML ="COPIED!";
   setTimeout(function(){
-      cpnBtn.innerHTML="COPY CODE";
+      cpnBtn.innerHTML="COPY";
   }, 3000);
 }
 
